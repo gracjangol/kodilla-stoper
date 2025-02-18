@@ -45,9 +45,9 @@ const Stoper = () => {
     return (
         <div className={style.stoper}>
             <p className={style.timer}>{msToTime(time)}</p>
-            <button className={style.button} onClick={startCounter}>Start</button>
-            <button className={style.button} onClick={stopCounter}>Stop</button>
-            <button className={style.button} onClick={resetCounter}>Reset</button>
+            <button className={style.button} type="button" onClick={startCounter}>Start</button>
+            <button className={style.button} type="button" onClick={stopCounter}>Stop</button>
+            <button className={style.button} type="button" onClick={resetCounter}>Reset</button>
         </div>
     );
 };
